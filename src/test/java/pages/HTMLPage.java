@@ -28,6 +28,11 @@ public class HTMLPage {
 	
 	@FindBy(xpath=".//*[contains(text(), 'Intro')]")
 	private WebElement MainTab;
+	
+	@FindBy(xpath=".//*[contains(text(), 'Intro')]")
+	private WebElement RemoteTab;
+	
+	
 
 
 }
