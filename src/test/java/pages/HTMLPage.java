@@ -22,6 +22,9 @@ public class HTMLPage {
 	
 	@FindBy(xpath=".//*[contains(text(), 'Intro')]")
 	private WebElement IntroTab;
+	
+	@FindBy(xpath=".//*[contains(text(), 'Intro')]")
+	private WebElement RootTab;
 
 }
 
