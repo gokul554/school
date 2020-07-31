@@ -13,6 +13,9 @@ public class HTMLPage {
 	
 	@FindBy(xpath=".//*[contains(text(),'Syntax')]")
 	private WebElement JavaTab;
+	
+	@FindBy(xpath=".//*[contains(text(),'Java main')]")
+	private WebElement JavamainTab;
 
 }
 
