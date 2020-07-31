@@ -19,6 +19,9 @@ public class HTMLPage {
 	
 	@FindBy(xpath=".//*[contains(text(),'Syntax')]")
 	private WebElement SyntaxTab;
+	
+	@FindBy(xpath=".//*[contains(text(), 'Intro')]")
+	private WebElement IntroTab;
 
 }
 
