@@ -2,6 +2,7 @@ package pages;
 
 public class HTMLPage {
   
-  system.out.print("new page");
+ @FindBy(xpath=".//input[@name='email']")
+	private WebElement txtEmail;
 
 }
